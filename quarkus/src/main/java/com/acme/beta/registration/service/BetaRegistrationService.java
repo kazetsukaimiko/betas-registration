@@ -1,4 +1,4 @@
-package com.acme.beta.registration.servivce;
+package com.acme.beta.registration.service;
 
 import com.acme.beta.registration.jaxrs.BetaRegistrationEndpoint;
 import com.acme.beta.registration.jpa.DeveloperPersistence;
