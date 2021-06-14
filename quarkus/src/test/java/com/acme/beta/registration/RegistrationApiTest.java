@@ -7,14 +7,9 @@ import com.acme.beta.registration.model.DevId;
 import com.acme.beta.registration.model.DevLang;
 import com.acme.beta.registration.model.Developer;
 import io.quarkus.test.junit.QuarkusTest;
-import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import javax.ws.rs.NotFoundException;
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.WebTarget;
 import java.time.ZonedDateTime;
 import java.util.Objects;
 
@@ -99,7 +94,6 @@ public class RegistrationApiTest extends CommonApiTest<BetaRegistrationEndpoint>
 
     /**
      * Method to return a randomized Developer payload
-     * @return
      */
     public Developer randomDeveloper() {
         return new Developer(

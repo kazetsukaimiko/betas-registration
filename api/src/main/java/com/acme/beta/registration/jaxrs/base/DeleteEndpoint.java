@@ -3,7 +3,6 @@ package com.acme.beta.registration.jaxrs.base;
 import com.acme.beta.registration.model.Model;
 
 import javax.ws.rs.DELETE;
-import javax.ws.rs.ForbiddenException;
 import javax.ws.rs.NotAuthorizedException;
 import javax.ws.rs.NotFoundException;
 import javax.ws.rs.Path;

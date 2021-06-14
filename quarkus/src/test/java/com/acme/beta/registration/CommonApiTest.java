@@ -1,15 +1,11 @@
 package com.acme.beta.registration;
 
-import com.acme.beta.registration.jaxrs.BetaRegistrationEndpoint;
 import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
 import org.junit.jupiter.api.BeforeEach;
 
-import javax.ws.rs.Consumes;
-import javax.ws.rs.Produces;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.MediaType;
 
 public abstract class CommonApiTest<API> {
 

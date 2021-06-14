@@ -1,12 +1,8 @@
 package com.acme.beta.registration;
 
-import javax.swing.text.html.parser.Entity;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 import java.util.Random;
-import java.util.function.Function;
-import java.util.function.Supplier;
 
 public class GeneratedStuff {
     public static final List<String> FIRST_NAMES = Arrays.asList("Alex", "Bob", "Cindy", "Doug", "Edward");
